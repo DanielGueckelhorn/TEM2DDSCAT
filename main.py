@@ -9,7 +9,7 @@ import os
 
 class Config:
     # =================================================USER INPUT=======================================================
-    image_path: str = 'TEM-Images/gold_nanoparticles_52x52nm.jpg'  # Path of the TEM image (square-shaped)
+    image_path: str = 'TEM Images/gold_nanoparticles_52x52nm.jpg'  # Path of the TEM image (square-shaped)
     image_width_real: float = 52  # Real width of the image in nm
     lattice_spacing: float = 0.25  # Lattice spacing in nm. The lower, the higher the resolution
 
