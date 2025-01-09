@@ -1,4 +1,4 @@
-Gold, thin film 4nm (Yakubovsky et al., 2019)
+Gold, DFT (W. S. M. Werner et al., 2009)
 1 2 3 0 0 = columns for wave, Re(n), Im(n), eps1, eps2
 wave(um) Re(n)   Im(n)   
 0.0281   0.8124  0.1758
