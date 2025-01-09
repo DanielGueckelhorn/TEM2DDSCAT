@@ -5,6 +5,7 @@ import pandas as pd
 import skimage.exposure
 import matplotlib.pyplot as plt
 import os
+import sys
 
 
 class Config:
@@ -29,7 +30,7 @@ class Config:
     particle_size_threshold: int = 500  # Particle size threshold for particle detection
     matrix_size: int = 3  # Size of the extrapolation matrix
 
-    show_geometry: bool = True  # Flag to plot the geometry with Plotly in a browser window
+    show_geometry: bool = True  # Flag to plot the geometry with Plotly
     # ==================================================================================================================
 
     image_width: int = 0  # Image width in pixels (will be calculated later)
@@ -46,6 +47,10 @@ def setup(conf: Config) -> None:
 
     conf.image_width = int(np.shape(img)[0])
     conf.image_height = int(np.shape(img)[1])
+
+    if conf.image_width != conf.image_height:
+        print('In the current state the program only works with square images. This may be fixed in the future.')
+        sys.exit()
 
     conf.pixel_per_nm = float(conf.image_width / conf.image_width_real)
     conf.pixel_per_lattice_spacing = int(conf.pixel_per_nm * conf.lattice_spacing)
