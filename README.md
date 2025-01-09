@@ -15,7 +15,7 @@ This repository contains a Python code designed to convert Transmission Electron
 
 ## Citation
 
-If you use this code, please ensure you cite the original work that underpins this tool. Details about the publication will be added here later.
+If you use this code, please ensure you cite the [original work](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-22-37994&id=561240) that underpins this tool.
 
 ---
 
@@ -32,4 +32,3 @@ If you encounter issues, feel free to open an issue on the repository, but pleas
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
-
