@@ -15,7 +15,9 @@ This repository contains a Python code designed to convert Transmission Electron
 
 ## Citation
 
-If you use this code, please ensure you cite the [original work](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-22-37994&id=561240) that underpins this tool.
+If you use this code, please ensure you cite the [original work](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-22-37994&id=561240) that underpins this tool:
+
+Daniel Gueckelhorn, Aaron Dove, Andreas Dörfler, and Andreas Ruediger, "Kernel-inspired algorithm to transform transmission electron microscopy images into discrete dipole approximation geometries," Opt. Express 32, 37994-38003 (2024)
 
 ---
 
