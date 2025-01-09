@@ -55,6 +55,8 @@ Daniel Gueckelhorn, Aaron Dove, Andreas Dörfler, and Andreas Ruediger, "Kernel-
 
 This project is not under active development, and pull requests may not be reviewed promptly. However, updates may occasionally be released to fix existing bugs.
 
+Depending on the adjustments made, minor deviations in the results obtained from the code, compared to those reported in our published work, are possible.
+
 If you encounter issues, feel free to open an issue on the repository, but please note that response times may vary.
 
 ---
